@@ -1,1 +1,75 @@
-Hello World
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS 示例</title>
+    <style>
+        /* 页面背景和字体 */
+        body {
+            background-color: #f4f4f9; /* 设置背景色 */
+            font-family: Arial, sans-serif; /* 设置字体 */
+            margin: 0;
+            padding: 0;
+        }
+
+        /* 页面容器 */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* 标题样式 */
+        h1 {
+            color: #333;
+            font-size: 36px;
+        }
+
+        /* 段落文字样式 */
+        p {
+            color: #555;
+            font-size: 18px;
+            line-height: 1.6;
+        }
+
+        /* 按钮样式 */
+        .button {
+            background-color: #007bff; /* 按钮背景颜色 */
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        /* 按钮悬停效果 */
+        .button:hover {
+            background-color: #0056b3;
+        }
+
+        /* 简单的响应式布局 */
+        @media screen and (max-width: 768px) {
+            h1 {
+                font-size: 28px;
+            }
+            p {
+                font-size: 16px;
+            }
+            .button {
+                padding: 12px 25px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>欢迎来到我的网页</h1>
+        <p>这是一个简单的CSS示范，展示如何应用基本的样式。</p>
+        <button class="button">点击我</button>
+    </div>
+</body>
+</html>
